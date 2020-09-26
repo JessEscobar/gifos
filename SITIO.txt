@@ -1,0 +1,24 @@
+APYKEY:vCiO0nSKSCylJ7gg8fEbAzIGwx414arE
+https://giphyjessidescobar.000webhostapp.com/
+
+488413315513
+
+#Aquí puede programar la solución
+LAMBETAZO = ["QUERIDOS","APRECIADOS","DISTINGUIDOS","HONORABLES","ESTIMADOS","RESPETADOS"]
+POTENCIALES_MARRANOS = ["COMPATRIOTAS","CONCIUDADANOS","AMIGOS","COTERRANEOS","COMPARTIDARIOS","ELECTORES"]
+CONDICION = ["EN MI GOBIERNO","CON SU APOYO","SIENDO ELEGIDO","CON SU AYUDA","SI ME SIGUEN","DURANTE MI MANDATO"]
+COMPROMISO = ["VOY A DERROTAR","VENCERÉ","ELIMINARÉ","ACABARÉ","LUCHARÉ CONTRA","COMBATIRÉ"]
+ILUSION_GUERRERISTA = ["LA VIOLENCIA Y","LA DELINCUENCIA Y","LA CORRUPCIÓN Y","LA INFLACIÓN Y","LA POBREZA Y","	EL DESPLAZAMIENTO Y	"]
+PROMESA = ["TRABAJARÉ POR","GARANTIZARÉ","	PROTEGERÉ","VELARÉ POR","PROMOVERÉ","DEFENDERÉ"]
+BENEFICIO = ["LA EDUCACIÓN","EL EMPLEO","LA SEGURIDAD","LA PAZ","LA IGUALDAD","LA SALUD"]
+VOTOS = ["DEL PAÍS","DE LA CIUDAD","DE LA COMUNIDAD","DE LA POBLACIÓN","PARA TODA LA GENTE","DE CADA COLOMBIANO"]
+
+sujeto = random.choice(LAMBETAZO)
+Marranos = random.choice(POTENCIALES_MARRANOS)
+condicion = random.choice(CONDICION)
+compromiso = random.choice(COMPROMISO)
+guerrista = random.choice(ILUSION_GUERRERISTA)
+promesa = random.choice(PROMESA)
+beneficio = random.choice(BENEFICIO)
+votos = random.choice(VOTOS)
+print("Su libreto generado es: " + sujeto + " " + Marranos +" " + condicion +" " + compromiso + " "+guerrista +" "+promesa+ " "+beneficio+ " "+votos)
